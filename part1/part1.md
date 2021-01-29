@@ -7,8 +7,11 @@
 4. The following is printed:
 
 3
+
 150
+
 150
+
 50 100 150
 
 "3" is printed because i = 3 after its final incrementation on the for loop since the for loop only continues until it reaches the length of the prices array
