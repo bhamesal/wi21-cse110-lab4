@@ -28,8 +28,11 @@ Values inside "discounted" array are returned at the end, all of which being equ
 8. The following is printed:
 
 3
+
 150
+
 150
+
 50 100 150
 
 "3" is printed because i = 3 after its final incrementation on the for loop since the for loop only continues until it reaches the length of the prices array
@@ -41,12 +44,26 @@ Values inside "discounted" array are returned at the end, all of which being equ
 
 10. Error, no such variable. This is because using "const" to declare the variable "discountedPrice" makes it so that it is not accessible outside of the for loop code block it was declared in.
 
-11. Value stored in finalPrice is printed.
+11. Value stored in finalPrice is printed, which will be 0 in this case since finalPrice was declared as a "const" and originally set equal to 0, nullifying any updates from the for loop.
 
 12. The following is printed:
 
+3
 
+150
+
+150
+
+50 100 150
 
 13.
 
-  A) 
+  A) student.name
+  
+  B) student["Grad Year"]
+  
+  C) student.greeting.function()
+  
+  D) student["Favorite Teacher"].name
+  
+  E) student.courseLoad[0]
