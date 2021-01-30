@@ -104,5 +104,15 @@ Values inside "discounted" array are returned at the end, all of which being equ
 
 17. Outputs 'How are you?'. This is because true = 1 in the first comparison operation. Then inside the subsequent else if() operation, Boolean(2) is called, which evaluates to      true since 2 is non-zero.
 
-19.  
+19. The result is [6, 8, 10]. This is because the doSomething method (which is a callback in this case) increments each value in the array by 2 before each element is multiplied     by 2 within the modifyArray for loop.
+
+21. Output below:
+
+1
+
+4
+
+3
+
+2
   
