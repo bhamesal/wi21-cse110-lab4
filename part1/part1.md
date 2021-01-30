@@ -51,7 +51,9 @@ Values inside "discounted" array are returned at the end, all of which being equ
 
 And the following is returned:
 
-50 100 150
+0 0 0
+
+finalPrice stays 0 and is pushed to discounted array 3 times since it was declared as a const value.
 
 13.
 
