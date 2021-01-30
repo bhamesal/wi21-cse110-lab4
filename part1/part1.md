@@ -12,6 +12,8 @@
 
 150
 
+And the following is returned:
+
 50 100 150
 
 "3" is printed because i = 3 after its final incrementation on the for loop since the for loop only continues until it reaches the length of the prices array
@@ -27,17 +29,12 @@ Values inside "discounted" array are returned at the end, all of which being equ
 
 8. The following is printed:
 
-3
-
 150
 
-150
+And the following is returned:
 
 50 100 150
 
-"3" is printed because i = 3 after its final incrementation on the for loop since the for loop only continues until it reaches the length of the prices array
-"150" is printed because that's what discountedPrice equals after the final iteration of the for loop (final element in prices * (1 - discount) = 300 * .5 = 150)
-"150" is printed again because that's what finalPrice equals after the final iteration of the for loop (final discounted price was not in need of rounding so it stayed the same)
 Values inside "discounted" array are returned at the end, all of which being equal to 50% of their respective input prices since the discount specified was 50% off.
 
 9. Error, no such variable. This is because using "let" to declare the variable "i" makes it so that it is not accessible outside of the for loop code block it was declared in.
@@ -48,11 +45,11 @@ Values inside "discounted" array are returned at the end, all of which being equ
 
 12. The following is printed:
 
-3
+
 
 150
 
-150
+And the following is returned:
 
 50 100 150
 
